@@ -1,0 +1,27 @@
+# string1 = "happy birthday to you,my dear  "
+# print(len(string1))
+# print(string1[2:10])
+# print(string1.capitalize())
+# print(string1.replace(',','!'))
+# print(string1.strip())
+# str1 = string1.strip()
+# print(len(str1))
+# print(string1.upper())
+# list2 = ','.join(string1)
+# print(list2)
+# print(string1.split())
+# list1 = ["beijing","nanjing","shanghai","hangzhou"]
+# str2 = ' '.join(list1)
+# print(str2)
+# if string1.endswith("  "):
+#     print("ok")
+# print(string1.find('4'))
+list = ['a','cc','d','cc','f','d']
+print(list.count('cc'))
+list.sort(reverse=True)
+print(list)
+list.reverse()
+print(list)
+str1 = ','.join(list)
+print(str1)
+print(set(list))
